@@ -1,0 +1,1331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.capture("report_feature",{distinct_id:"a07e5f4d-c335-4079-84c0-8a2d1e5c5b11",karate_version:"1.4.0",karate_meta:null});
+  }
+});
+</script>
+
+    <title>com.fbasagni.apyhub.currency.features.currency_conversion_multiple</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">4</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2025-11-28 05:34:46 PM</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:9]"><span>[1:9]</span> <span>Requisição válida</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[2:20]"><span>[2:20]</span> <span>Targets ausente</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[3:29]"><span>[3:29]</span> <span>Moeda inválida</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[4:38]"><span>[4:38]</span> <span>Token ausente</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">com/fbasagni/apyhub/currency/features/currency_conversion_multiple.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Conversão de moeda - múltiplas moedas (ApyHub)</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:9]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">happy_path</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:9]</span>
+                <span class="scenario-name">Requisição válida</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1380</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:9]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure headers = headers</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def resourcePath = [&#39;data&#39;,&#39;convert&#39;,&#39;currency&#39;,&#39;multiple&#39;]</span>
+      </div>
+    </div>
+    <div class="time-cell passed">43</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path resourcePath</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;source&quot;: &quot;inr&quot;,&quot;targets&quot;: [&quot;usd&quot;,&quot;aed&quot;,&quot;eur&quot;],&quot;date&quot;: &quot;2025-11-01&quot; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1300</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.12">17:34:39.457 request:
+1 &gt; POST https://api.apyhub.com/data/convert/currency/multiple
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; apy-token: APY0SN174jWt7uDkat5pRB0TWpyRYAPqmfNOaGGiK0PRhmJ6BGr8XKqan5eChnXW
+1 &gt; Content-Length: 66
+1 &gt; Host: api.apyhub.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.24)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;source&quot;:&quot;inr&quot;,&quot;targets&quot;:[&quot;usd&quot;,&quot;aed&quot;,&quot;eur&quot;],&quot;date&quot;:&quot;2025-11-01&quot;}
+
+17:34:40.270 response time in milliseconds: 808
+1 &lt; 200
+1 &lt; Server: nginx/1.18.0 (Ubuntu)
+1 &lt; Date: Fri, 28 Nov 2025 20:34:40 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Content-Length: 67
+1 &lt; Connection: keep-alive
+1 &lt; X-RateLimit-Limit-Second: 5
+1 &lt; X-RateLimit-Limit-Minute: 5
+1 &lt; X-RateLimit-Limit-Day: 10
+1 &lt; X-RateLimit-Remaining-Second: 4
+1 &lt; X-RateLimit-Remaining-Minute: 4
+1 &lt; RateLimit-Limit: 10
+1 &lt; RateLimit-Remaining: 4
+1 &lt; RateLimit-Reset: 12320
+1 &lt; X-RateLimit-Remaining-Day: 4
+1 &lt; vary: Origin
+1 &lt; Access-Control-Allow-Origin: *
+{&quot;inr_aed&quot;:0.041350185,&quot;inr_eur&quot;:0.0097564466,&quot;inr_usd&quot;:0.01125941}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response !contains { error: &#39;#present&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">23</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.inr_usd == &#39;#number&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.inr_aed == &#39;#number&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.inr_eur == &#39;#number&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:20]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">missing_targets</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:20]</span>
+                <span class="scenario-name">Targets ausente</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>680</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2:20]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2:20]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:20]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure headers = headers</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:20]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def resourcePath = [&#39;data&#39;,&#39;convert&#39;,&#39;currency&#39;,&#39;multiple&#39;]</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path resourcePath</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.22">
+      <div class="step-ref passed">22</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;source&quot;: &quot;inr&quot; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.23">
+      <div class="step-ref passed">23</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">634</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.23">17:34:40.339 request:
+1 &gt; POST https://api.apyhub.com/data/convert/currency/multiple
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; apy-token: APY0SN174jWt7uDkat5pRB0TWpyRYAPqmfNOaGGiK0PRhmJ6BGr8XKqan5eChnXW
+1 &gt; Content-Length: 16
+1 &gt; Host: api.apyhub.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.24)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;source&quot;:&quot;inr&quot;}
+
+17:34:40.963 response time in milliseconds: 622
+1 &lt; 400
+1 &lt; Server: nginx/1.18.0 (Ubuntu)
+1 &lt; Date: Fri, 28 Nov 2025 20:34:40 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Content-Length: 71
+1 &lt; Connection: keep-alive
+1 &lt; X-RateLimit-Limit-Second: 5
+1 &lt; X-RateLimit-Limit-Minute: 5
+1 &lt; X-RateLimit-Limit-Day: 10
+1 &lt; X-RateLimit-Remaining-Second: 3
+1 &lt; X-RateLimit-Remaining-Minute: 3
+1 &lt; RateLimit-Limit: 10
+1 &lt; RateLimit-Remaining: 3
+1 &lt; RateLimit-Reset: 12320
+1 &lt; X-RateLimit-Remaining-Day: 3
+1 &lt; vary: Origin
+1 &lt; Access-Control-Allow-Origin: *
+{&quot;error&quot;:{&quot;message&quot;:&quot;Please provide the value for targets&quot;,&quot;code&quot;:101}}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.24">
+      <div class="step-ref passed">24</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>assert responseStatus == 200 || responseStatus == 400</span>
+      </div>
+    </div>
+    <div class="time-cell passed">38</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.25">
+      <div class="step-ref passed">25</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.error.code == 101</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.26">
+      <div class="step-ref passed">26</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.error.message contains &#39;targets&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[3:29]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">invalid_currency</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[3:29]</span>
+                <span class="scenario-name">Moeda inválida</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>4958</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[3:29]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[3:29]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:29]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure headers = headers</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:29]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def resourcePath = [&#39;data&#39;,&#39;convert&#39;,&#39;currency&#39;,&#39;multiple&#39;]</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.30">
+      <div class="step-ref passed">30</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path resourcePath</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.31">
+      <div class="step-ref passed">31</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;source&quot;: &quot;moeda_invalida&quot;,&quot;targets&quot;: [&quot;usd&quot;] }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.32">
+      <div class="step-ref passed">32</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4947</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.32">17:34:41.062 request:
+1 &gt; POST https://api.apyhub.com/data/convert/currency/multiple
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; apy-token: APY0SN174jWt7uDkat5pRB0TWpyRYAPqmfNOaGGiK0PRhmJ6BGr8XKqan5eChnXW
+1 &gt; Content-Length: 45
+1 &gt; Host: api.apyhub.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.24)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;source&quot;:&quot;moeda_invalida&quot;,&quot;targets&quot;:[&quot;usd&quot;]}
+
+17:34:46.000 response time in milliseconds: 4935
+1 &lt; 500
+1 &lt; Server: nginx/1.18.0 (Ubuntu)
+1 &lt; Date: Fri, 28 Nov 2025 20:34:46 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Content-Length: 56
+1 &lt; Connection: keep-alive
+1 &lt; X-RateLimit-Limit-Second: 5
+1 &lt; X-RateLimit-Limit-Minute: 5
+1 &lt; X-RateLimit-Limit-Day: 10
+1 &lt; X-RateLimit-Remaining-Second: 4
+1 &lt; X-RateLimit-Remaining-Minute: 2
+1 &lt; RateLimit-Limit: 10
+1 &lt; RateLimit-Remaining: 2
+1 &lt; RateLimit-Reset: 12319
+1 &lt; X-RateLimit-Remaining-Day: 2
+1 &lt; vary: Origin
+1 &lt; Access-Control-Allow-Origin: *
+{&quot;error&quot;:{&quot;message&quot;:&quot;Internal server error&quot;,&quot;code&quot;:110}}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.33">
+      <div class="step-ref passed">33</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>assert responseStatus == 400 || responseStatus == 500</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.34">
+      <div class="step-ref passed">34</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.error.code == 110</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.35">
+      <div class="step-ref passed">35</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.error.message contains &#39;Internal server error&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[4:38]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">auth</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[4:38]</span>
+                <span class="scenario-name">Token ausente</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>578</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[4:38]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[4:38]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[4:38]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure headers = headers</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[4:38]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def resourcePath = [&#39;data&#39;,&#39;convert&#39;,&#39;currency&#39;,&#39;multiple&#39;]</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.39">
+      <div class="step-ref passed">39</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure headers = { &#39;Content-Type&#39;: &#39;application/json&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.40">
+      <div class="step-ref passed">40</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path resourcePath</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.41">
+      <div class="step-ref passed">41</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;source&quot;: &quot;inr&quot;,&quot;targets&quot;: [&quot;usd&quot;] }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.42">
+      <div class="step-ref passed">42</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">573</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.42">17:34:46.066 request:
+1 &gt; POST https://api.apyhub.com/data/convert/currency/multiple
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 34
+1 &gt; Host: api.apyhub.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.24)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;source&quot;:&quot;inr&quot;,&quot;targets&quot;:[&quot;usd&quot;]}
+
+17:34:46.631 response time in milliseconds: 562
+1 &lt; 401
+1 &lt; Server: nginx/1.18.0 (Ubuntu)
+1 &lt; Date: Fri, 28 Nov 2025 20:34:46 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 36
+1 &lt; Connection: keep-alive
+1 &lt; WWW-Authenticate: Key realm=&quot;kong&quot;
+1 &lt; vary: Origin
+1 &lt; Access-Control-Allow-Origin: *
+{&quot;error&quot;: &quot;Authentication required&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.43">
+      <div class="step-ref passed">43</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 401</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
